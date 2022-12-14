@@ -27,7 +27,7 @@ const Navbar = () => {
           <button className='border-none text-xs mr-3 bg-transparent text-black'>Sign In</button>
           <button className='px-4 py-1'>Sign Up</button>
         </div>
-        <div className='md:hidden flex items-center cursor-pointer' onClick={handleClick}>
+        <div className='md:hidden flex items-center cursor-pointer mr-5' onClick={handleClick}>
             {!nav ? 
             (<Bars3Icon className='w-5' />) 
             : 
