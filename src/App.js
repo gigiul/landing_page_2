@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Support from "./components/Support";
 import Allinone from "./components/Allinone";
+import Pricing from "./components/Pricing";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Support />
       <Allinone />
+      <Pricing />
     </>
   );
 }

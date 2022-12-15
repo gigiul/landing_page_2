@@ -3,7 +3,6 @@ import {  Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const Navbar = () => {
 
-{/*create a state to nav the menu*/}
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
 
