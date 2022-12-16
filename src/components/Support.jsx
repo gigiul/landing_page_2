@@ -5,7 +5,7 @@ import {PhoneIcon, GlobeAltIcon, CpuChipIcon} from '@heroicons/react/24/outline'
 const Support = () => {
   return (
     <div>
-        <div className='w-full pt-32 md:pb-16 pb-1 bg-gray-400'>
+        <div name='support' className='w-full pt-32 md:pb-16 pb-1 bg-gray-400 drop-shadow-md'>
             <div className='w-full h-[700px] bg-gray-900/90 absolute'>
                 <img className='w-full h-full object-cover mix-blend-overlay'
                     src={SupportJ} alt='support'/>

@@ -3,7 +3,7 @@ import {CheckIcon} from '@heroicons/react/24/outline'
 
 const Pricing = () => {
   return (
-    <div className='bg-blue-900 h-full w-full pt-16'>
+    <div name='pricing' className='bg-blue-900 h-full w-full py-16'>
         <div className=' text-center '>
             <div>
               <h3 className='text-white font-bold text-3xl'>The right price for your research.</h3>

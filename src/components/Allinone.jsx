@@ -4,7 +4,7 @@ import {CheckIcon} from '@heroicons/react/24/outline'
 
 const Allinone = () => {
   return (
-        <div className='w-full h-full bg-gray-400 pt-16 px-8'>
+        <div name='platforms' className='w-full h-full bg-gray-400 py-16 px-8 drop-shadow-md'>
             <div className='text-center mb-8 mx-auto max-w-[1240px]'>
                 <h2 className='font-bold text-5xl mb-8'>All-In-One Platform</h2>
                 <p className='italic'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
