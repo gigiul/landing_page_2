@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className='bg-gray-400 w-screen z-10 h-[80px] fixed drop-shadow-lg'>
       <div className=' flex items-center px-2 justify-between w-full h-full'>
         <div className=' flex items-center'>
-        <h1 className='font-bold text-3xl mr-4 sm:text-4xl'><Link to="home" smooth={true} duration={500}>BRAND</Link></h1>
+          <h1 className='font-bold text-3xl mr-4 sm:text-4xl'><Link to="home" smooth={true} duration={500}>BRAND</Link></h1>
         <ul className='hidden md:flex cursor-pointer'>
           <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
           <li><Link to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
